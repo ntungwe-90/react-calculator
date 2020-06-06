@@ -1,0 +1,36 @@
+.head {
+	background-color: #b4b4b4;
+	height: 100px;
+	border: 0px 0px 1px 0px solid grey;
+	text-align: right;
+	color: white;
+}
+.r1{
+	background-color: #ccccff;
+	height: 100px;
+	border: 1px solid grey;
+	text-align: center;
+	
+
+}
+
+.r1:first-child,
+.last:first-child {
+	border-left: 0px
+}
+
+.r1:last-child,
+.last:last-child {
+	border-right: 0px
+}
+.last{
+	background-color: #ccccff;
+	height: 100px;
+	border: 1px solid grey;
+	text-align: center;
+	
+}
+.color{
+	background-color: orange;
+	color: white;
+}
